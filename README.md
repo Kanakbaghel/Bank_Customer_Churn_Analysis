@@ -1,33 +1,40 @@
-<font size = 6 color = lightblue ><b> <h1 align='center'>Machine Learning Project</h1>
+<font size = 6 color = lightblue ><b> <h1 align='center'>BANK CHURN CUSTOMER ANAYLSIS</h1>
 <p align='center'><em>Graded Mini Project | Emeritus IIT Guwahati </em></p>
 
-------------
+--------------------------
+----------------------------
+### Introduction
 
-# Learning Outcomes Addressed
-- Understand the core concepts and techniques of unsupervised learning.
-- Learn how to implement clustering algorithms like K-Means and Hierarchical Clustering to group unlabeled data.
-- Explore dimensionality reduction techniques such as PCA to reduce the complexity of datasets while retaining important information.
-- Apply unsupervised learning algorithms to real-world datasets to uncover hidden patterns and relationships.
+In the highly competitive financial sector, customer retention remains a critical determinant of sustained profitability. A prominent international bank is currently facing elevated customer churn rates, with clients discontinuing accounts despite access to a diverse portfolio of financial products. This concerning trend poses significant risks to long-term growth and brand loyalty.
 
-------------
+This Jupyter notebook systematically addresses the project objectives: data cleaning and preprocessing, exploratory data analysis (EDA) to identify churn patterns, development of predictive models for churn forecasting, and extraction of actionable business insights. The dataset encompasses customer demographics, account information, and behavioral attributes, featuring a binary target variable "Exited" (1 indicating churn, 0 indicating retention).
 
-# Introduction
-A leading international bank is facing challenges with customer retention. Despite offering multiple financial products and services, many customers are closing their accounts and leaving for competitors. The bank’s management wants to leverage data analytics to predict customer churn and design strategies to improve customer loyalty. 
- 
-As a data analyst, you are tasked with analyzing customer data, identifying factors leading to churn, and building a simple model to predict whether a customer will exit the bank. 
+### Libraries Utilized
 
--------------
+The analysis leverages the following key libraries to facilitate a robust end-to-end workflow, from data ingestion to insightful model evaluation:
 
-# Problem Statement 
-The goal is to build a predictive pipeline that helps the bank answer the question: 
-“Which customers are at risk of leaving the bank?” 
- 
-This will help the bank’s marketing and customer success teams target the right customers with retention strategies. 
+- **pandas**: For efficient data manipulation, cleaning, and analysis.
+- **numpy**: For numerical computations and array operations.
+- **matplotlib and seaborn**: For creating visualizations and exploratory plots.
+- **scikit-learn**: For preprocessing, model training, evaluation metrics, and tools such as ROC curves and confusion matrices.
+- **scipy**: For advanced statistical functions, including hierarchical clustering to explore unsupervised customer segmentation during EDA.
 
-------------
+These tools ensure a comprehensive and reproducible approach to the analysis.
 
-# Data Description
-You are provided with a dataset (data.csv) that contains customer information along with a churn flag (Exited). 
-<img width="634" height="782" alt="image" src="https://github.com/user-attachments/assets/4c5b08ae-b73b-4e7a-bb9a-d4db951d5639" />
+### Project Objectives
 
-**Note**: The dataset intentionally contains missing values and duplicate records to simulate real-world challenges.
+As a data analyst, the primary goals are to:
+
+- Examine customer data to identify pivotal churn drivers, such as demographic profiles and account usage patterns.
+- Develop and rigorously evaluate predictive models to classify customers as likely to retain or depart.
+- Generate strategic recommendations to support targeted retention initiatives, including personalized incentives and proactive interventions for high-risk segments.
+
+------------------
+
+<img width="878" height="474" alt="image" src="https://github.com/user-attachments/assets/5b628cb6-cba4-4184-a00a-e6383df2f20d" />
+<p align="center"><strong>--- Hierarchical Clustering ---</strong></p>
+
+
+---
+> _“Data becomes meaningful when it tells a story that leads to better decisions.”_  
+<p align="center"><em>Crafted with ♥ by <strong>Kanak Baghel</strong> | <a href="https://www.linkedin.com/in/kanakbaghel">LinkedIn</a></em></p>
